@@ -72,10 +72,9 @@
             // 
             this.txtDiscountPercent.Location = new System.Drawing.Point(156, 46);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
-            this.txtDiscountPercent.ReadOnly = true;
             this.txtDiscountPercent.Size = new System.Drawing.Size(100, 20);
-            this.txtDiscountPercent.TabIndex = 3;
-            this.txtDiscountPercent.TabStop = false;
+            this.txtDiscountPercent.TabIndex = 2;
+            this.txtDiscountPercent.Text = "5";
             // 
             // label3
             // 
@@ -120,7 +119,7 @@
             this.btnCalculate.Location = new System.Drawing.Point(80, 135);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(75, 23);
-            this.btnCalculate.TabIndex = 2;
+            this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
@@ -130,7 +129,7 @@
             this.btnExit.Location = new System.Drawing.Point(181, 135);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 3;
+            this.btnExit.TabIndex = 4;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
