@@ -70,5 +70,15 @@ namespace gwangwa1c1
 
             txtHotDogs.Focus();
         }
+
+        private void TxtHotDogs_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtHotDogsSubtotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
