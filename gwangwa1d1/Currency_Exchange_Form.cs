@@ -23,12 +23,11 @@ namespace gwangwa1d1
         it also changes whenever any of the amount or rate of any of the currencies change
         */
         private void australiaTextChange(object sender, EventArgs e)
-        {
+       {
               txtUSDAustralia.Text = 
                   (
                  Convert.ToDecimal (txtAmountAustralia.Text) * Convert.ToDecimal (txtRateAustralia.Text)
                   ).ToString("0.00");
-            
         }
 
         private void bhutanTextChange(object sender, EventArgs e)

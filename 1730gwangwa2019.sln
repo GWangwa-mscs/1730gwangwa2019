@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa1E1", "gwangwa1E1\gw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa1F1", "gwangwa1F1\gwangwa1F1.csproj", "{34AF0756-9373-434A-B099-B4A10D075788}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa1G1", "gwangwa1G1\gwangwa1G1.csproj", "{206219F3-D764-47BA-9DE8-7E0432B7B6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa1H1", "gwangwa1H1\gwangwa1H1.csproj", "{6510FC92-89F2-487E-B233-0946B9420438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{34AF0756-9373-434A-B099-B4A10D075788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AF0756-9373-434A-B099-B4A10D075788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AF0756-9373-434A-B099-B4A10D075788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206219F3-D764-47BA-9DE8-7E0432B7B6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206219F3-D764-47BA-9DE8-7E0432B7B6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206219F3-D764-47BA-9DE8-7E0432B7B6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206219F3-D764-47BA-9DE8-7E0432B7B6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6510FC92-89F2-487E-B233-0946B9420438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6510FC92-89F2-487E-B233-0946B9420438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6510FC92-89F2-487E-B233-0946B9420438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6510FC92-89F2-487E-B233-0946B9420438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
