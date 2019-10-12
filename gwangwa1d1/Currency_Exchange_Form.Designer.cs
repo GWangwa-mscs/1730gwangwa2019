@@ -360,7 +360,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(767, 253);
+            this.ClientSize = new System.Drawing.Size(767, 265);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtTotalUSD);
             this.Controls.Add(this.txtExitButton);
