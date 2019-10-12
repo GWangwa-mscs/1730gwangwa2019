@@ -29,7 +29,8 @@ namespace gwangwa1H1
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            label2.Text = "MessageC" + textBox1.Text;
+           label3.Top = 32;
+
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -38,6 +39,11 @@ namespace gwangwa1H1
             textBox3.Text = (textBox1.Text) + (textBox2.Text);
             label2.Text = (2 * groupBox3.TabIndex).ToString("n2");
 
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

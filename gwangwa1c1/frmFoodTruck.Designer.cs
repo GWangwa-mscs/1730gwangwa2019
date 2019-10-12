@@ -55,6 +55,7 @@
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hot dogs";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtHotDogs
             // 
@@ -74,6 +75,7 @@
             this.label2.Size = new System.Drawing.Size(49, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = " $4.00 = ";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtHotDogsSubtotal
             // 
@@ -95,6 +97,7 @@
             this.txtHamburgersSubtotal.TabIndex = 7;
             this.txtHamburgersSubtotal.TabStop = false;
             this.txtHamburgersSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtHamburgersSubtotal.TextChanged += new System.EventHandler(this.txtHamburgersSubtotal_TextChanged);
             // 
             // label3
             // 
@@ -104,6 +107,7 @@
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = " $5.00 = ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtHamburgers
             // 
@@ -113,6 +117,7 @@
             this.txtHamburgers.TabIndex = 5;
             this.txtHamburgers.Text = "0";
             this.txtHamburgers.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtHamburgers.TextChanged += new System.EventHandler(this.txtHamburgers_TextChanged);
             // 
             // label4
             // 
@@ -122,6 +127,7 @@
             this.label4.Size = new System.Drawing.Size(64, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "Hamburgers";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // btnCalculate
             // 
@@ -142,6 +148,7 @@
             this.txtTotal.TabIndex = 9;
             this.txtTotal.TabStop = false;
             this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTotal.TextChanged += new System.EventHandler(this.txtTotal_TextChanged);
             // 
             // txtTax
             // 
@@ -152,6 +159,7 @@
             this.txtTax.TabIndex = 10;
             this.txtTax.TabStop = false;
             this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTax.TextChanged += new System.EventHandler(this.txtTax_TextChanged);
             // 
             // txtPretaxTotal
             // 
@@ -162,6 +170,7 @@
             this.txtPretaxTotal.TabIndex = 11;
             this.txtPretaxTotal.TabStop = false;
             this.txtPretaxTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtPretaxTotal.TextChanged += new System.EventHandler(this.txtPretaxTotal_TextChanged);
             // 
             // label5
             // 
@@ -171,6 +180,7 @@
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 12;
             this.label5.Text = "Pretax total";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -182,6 +192,7 @@
             this.label6.Size = new System.Drawing.Size(27, 15);
             this.label6.TabIndex = 13;
             this.label6.Text = "Tax";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -191,6 +202,7 @@
             this.label7.Size = new System.Drawing.Size(31, 13);
             this.label7.TabIndex = 14;
             this.label7.Text = "Total";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // btnClear
             // 
