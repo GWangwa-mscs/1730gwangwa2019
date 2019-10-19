@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa2B1", "gwangwa2B1\gw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa2C2", "gwangwa2C2\gwangwa2C2.csproj", "{532B8430-6D96-4573-AB26-9607474C02F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gwangwa2D1", "gwangwa2D1\gwangwa2D1.csproj", "{DDD84E1E-A41C-4035-83DD-374BB1A9931A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{532B8430-6D96-4573-AB26-9607474C02F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{532B8430-6D96-4573-AB26-9607474C02F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{532B8430-6D96-4573-AB26-9607474C02F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD84E1E-A41C-4035-83DD-374BB1A9931A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD84E1E-A41C-4035-83DD-374BB1A9931A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD84E1E-A41C-4035-83DD-374BB1A9931A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD84E1E-A41C-4035-83DD-374BB1A9931A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
