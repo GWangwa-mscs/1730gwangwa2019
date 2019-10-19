@@ -64,48 +64,78 @@ namespace gwangwa2D1
             textBox9Results.Text = "Fail";
             textBox10Results.Text = "Fail";
 
+            textBox1ResultsB.Text = "Success";
+            textBox2ResultsB.Text = "Success";
+            textBox3ResultsB.Text = "Success";
+            textBox4ResultsB.Text = "Success";
+            textBox5ResultsB.Text = "Success";
+            textBox6ResultsB.Text = "Success";
+            textBox7ResultsB.Text = "Success";
+            textBox8ResultsB.Text = "Success";
+            textBox9ResultsB.Text = "Success";
+            textBox10ResultsB.Text = "Success";
 
             if (textBox1Input.Text == "Frank")
                 textBox1Results.Text = "Success";
+            if (textBox1Input.Text != "Frank")
+                textBox1ResultsB.Text = "Fail";
+
 
             if (textBox2Input.Text == "")
                 textBox2Results.Text = "Success";
+            if (textBox2Input.Text != "")
+                textBox2ResultsB.Text = "Fail";
 
             decimal val3 = Convert.ToDecimal(textBox3Input.Text);
             if (val3 == 2.3m)
                 textBox3Results.Text = "Success";
+            if (val3 != 2.3m)
+                textBox3ResultsB.Text = "Fail";
 
             bool val4 = Convert.ToBoolean(textBox4Input.Text);
             if (val4 == false)
                 textBox4Results.Text = "Success";
+            if (val4 == true)
+                textBox4ResultsB.Text = "Fail";
 
             int val5A = Convert.ToInt32(textBox5InputA.Text);
             int val5B = Convert.ToInt32(textBox5InputB.Text);
             if (val5B == val5A)
                 textBox5Results.Text = "Success";
+            if (val5B != val5A)
+                textBox5ResultsB.Text = "Fail";
 
-            if (textBox6Input.Text == "xyz")
+            if (textBox6Input.Text != "Jones")
                 textBox6Results.Text = "Success";
+            if (textBox6Input.Text == "Jones")
+                textBox6ResultsB.Text = "Fail";
 
             decimal val7 = Convert.ToDecimal(textBox7Input.Text);
-            if (val7 > 0)
+            if (val7 > 0m)
                 textBox7Results.Text = "Success";
+            if (val7 <= 0m)
+                textBox7ResultsB.Text = "Fail";
 
             int val8A = Convert.ToInt32(textBox8InputA.Text);
             int val8B = Convert.ToInt32(textBox8InputB.Text);
             if (val8A < val8B)
                 textBox8Results.Text = "Success";
+            if (val8B <= val8A)
+                textBox8ResultsB.Text = "Fail";
 
             decimal val9 = Convert.ToDecimal(textBox9Input.Text);
             if (val9 > 500)
             textBox9Results.Text = "Success";
+            if (val9 <= 500)
+                textBox9ResultsB.Text = "Fail";
 
             int val10A = Convert.ToInt32(textBox10InputA.Text);
             int val10B = Convert.ToInt32(textBox10InputB.Text);
             if (val10A <= val10B)
                 textBox10Results.Text = "Success";
-            
-          
+            if (val10A > val10B)
+                textBox10ResultsB.Text = "Fail";
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -133,8 +163,18 @@ namespace gwangwa2D1
             textBox8Results.Text = "";
             textBox9Results.Text = "";
             textBox10Results.Text = "";
-            textBox1Input.Focus();
-        }
+            textBox1ResultsB.Text = "";
+            textBox2ResultsB.Text = "";
+            textBox3ResultsB.Text = "";
+            textBox4ResultsB.Text = "";
+            textBox5ResultsB.Text = "";
+            textBox6ResultsB.Text = "";
+            textBox7ResultsB.Text = "";
+            textBox8ResultsB.Text = "";
+            textBox9ResultsB.Text = "";
+            textBox10ResultsB.Text = "";
+            textBox1Input.Focus(); 
+        }                          
 
         private void exitButton_Click(object sender, EventArgs e)
         {
